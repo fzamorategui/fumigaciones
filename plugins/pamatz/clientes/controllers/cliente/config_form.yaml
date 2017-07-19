@@ -1,0 +1,31 @@
+# ===================================
+#  Form Behavior Config
+# ===================================
+
+# Record name
+name: Cliente
+
+# Model Form Field configuration
+form: $/pamatz/clientes/models/cliente/fields.yaml
+
+# Model Class name
+modelClass: Pamatz\Clientes\Models\Cliente
+
+# Default redirect location
+defaultRedirect: pamatz/clientes/cliente
+
+# Create page
+create:
+    title: Create Cliente
+    redirect: pamatz/clientes/cliente/update/:id
+    redirectClose: pamatz/clientes/cliente
+
+# Update page
+update:
+    title: Edit Cliente
+    redirect: pamatz/clientes/cliente
+    redirectClose: pamatz/clientes/cliente
+
+# Preview page
+preview:
+    title: Preview Cliente
